@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.container div{
+}
+.nav{
+    background-color: #38bdf8;
+}
+.right-side{
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
