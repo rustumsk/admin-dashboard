@@ -4,14 +4,143 @@ body{
 .container{
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 6fr;
 }
 .container div{
 }
 .nav{
-    background-color: #38bdf8;
+    background-color: #368ddd;
 }
 .right-side{
     display: grid;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
+}
+.header{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.nav{
+    display: grid;
+    grid-template-rows: 1fr 3fr 2fr 3fr;
+}
+img{
+    height: 4rem;
+    width: 4rem;
+    fill: white;
+}
+.dashboard{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 5px;
+}
+.dashboard>img{
+    justify-self: end;
+    align-self: center;
+}
+.dashboard>img+p{
+    justify-self: start;
+    align-self: center;
+    font-size: 25px;
+}
+.info{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.info div{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.info div>img{
+    justify-self: center;
+    align-self: center;
+    height: 2rem;
+    width: 2rem;
+}
+.info div>p{
+    justify-content: center;
+    align-self: end;
+    font-size: 20px;
+}
+p{
+    color: white;
+    font-weight: bold;
+}
+.security{
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.security div{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.security div>img{
+    justify-self: center;
+    align-self: center;
+    height: 2rem;
+    width: 2rem;
+}
+.security div>p{
+    justify-content: center;
+    align-self: center;
+    font-size: 20px;
+}
+.settings{
+    align-self: end;
+}
+.privacy{
+    align-self: start;
+}
+
+.main-content{
+    background-color: rgb(218, 214, 214);
+}
+
+.upper{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
+}
+.magnifying>img{
+    height: 3rem;
+    width: 3rem;
+}
+.magnifying{
+    align-self: center;
+    justify-self: end;
+    padding-right: 1em;
+    margin-right: 1em;
+}
+.search{
+    align-self: center;
+}
+.search>input{
+    width: 100%;
+    border-radius: 15px;
+    border: none;
+    background-color: gray;
+    opacity: .3;
+    height: 1.9rem;
+}
+.notify{
+    align-self: center;
+    justify-self: end;
+}
+.notify>img{
+    height: 2rem;
+    width: 2rem;
+}
+
+.profile{
+    align-self: center;
+    justify-self: center;
+}
+.profile>img{
+    height: 4rem;
+    width: 4rem;
+}
+
+.profile-name{
+    align-self: center;
+    font-weight: bold;
+    font-size: 1.3rem;
 }
